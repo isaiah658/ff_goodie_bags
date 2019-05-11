@@ -240,7 +240,7 @@ end
 -- Specific drops for Floating Factories sub game only
 -- Overrides all other drops
 -- Also serves as an example how other sub games, servers, etc can set their own goodies
-if minetest.get_modpath("floating_factories") and minetest.get_modpath("default") and minetest.get_modpath("dye") and minetest.get_modpath("bonemeal") and minetest.get_modpath("farming") and farming and farming.mod and farming.mod == "redo" and minetest.get_modpath("carts") and minetest.get_modpath("vessels") then
+if minetest.get_modpath("floating_factories") and minetest.get_modpath("default") and minetest.get_modpath("dye") and minetest.get_modpath("bonemeal") and minetest.get_modpath("farming") and farming and farming.mod and farming.mod == "redo" and minetest.get_modpath("carts") and minetest.get_modpath("vessels") and minetest.get_modpath("floating_anchor") and minetest.get_modpath("ma_pops_furniture") and minetest.get_modpath("jukebox") then
 	ff_goodie_bags.general_item_pool = {"default:torch", "default:stick", "default:dirt", "default:cobble", "default:lava_source", "dye:black", "dye:yellow", "dye:white", "dye:violet", "dye:cyan", "dye:dark_green", "dye:brown", "bonemeal:mulch", "default:apple", "farming:donut_chocolate", "floating_anchor:floating_anchor_item", "vessels:glass_bottle", "doors:door_wood", "carts:rail"}
 	
 	ff_goodie_bags.blue_item_pool = {"dye:blue", "ma_pops_furniture:chair_pine_wood", "ma_pops_furniture:chair2_blue", "ma_pops_furniture:br_sink 1", "ma_pops_furniture:freezer", "jukebox:disc_5"}
