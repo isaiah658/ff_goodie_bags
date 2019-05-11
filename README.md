@@ -1,8 +1,8 @@
 # Minetest Mod - Floating Factories Goodie Bags
 
-Version 1.0.0
-Requires Minetest 0.4.16 or higher
-(It may work on older Minetest versions, but they're not a priority.)
+Version 1.0.0  
+Requires Minetest 0.4.16 or higher  
+(It may work on older Minetest versions, but they're not a priority.)  
 
 ## Description
 A mod for Minetest that is mostly meant for a sub game I'm working on, Floating Factories, but was segmented to allow easier use outside of the sub game. Doing this will hopefully encourage more people to use it, report bugs, and help fix code.
