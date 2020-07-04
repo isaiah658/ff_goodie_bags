@@ -122,7 +122,7 @@ ff_goodie_bags.goodie_bag_on_use = function (color)
 		end
 		
 		-- Play the sound
-		minetest.sound_play("ff_goodie_bags_Coin01", {pos, max_hear_distance = 2, gain = 1.0,})
+		minetest.sound_play("ff_goodie_bags_Coin01", {pos = pos, max_hear_distance = 2, gain = 1.0,})
 		
 		-- Remove one goodie bag from the itemstack
 		itemstack:take_item()
